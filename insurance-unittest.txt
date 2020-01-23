@@ -1,0 +1,9 @@
+----run phpunit-----
+go to cmd->go to root project-> run this command
+
+phpunit vendor\bin\phpunit tests\Controllers\TestProductController.php
+
+
+---run phpcbf------
+go to rootproject/vendor/bin
+phpcbf ../../app/Controllers/ProductController.php
